@@ -1,0 +1,93 @@
+Manager Validator (tests\app\filters\ManagerValidator)
+ [x] Empty validate success
+ [x] Add error message failed
+ [x] Two filters error message failed
+ [x] Two filters error message success
+
+User
+ [x] Auth false success
+ [x] Auth true success
+ [x] Logout success
+ [x] Login success
+ [x] Post without file success
+ [ ] Post with file success
+ [x] Put success
+ [x] Put password update success
+ [x] Get success
+ [x] Get no auth failed
+ [x] Get fake url failed
+
+Validator (tests\app\filters\Validator)
+ [x] Init empty success
+ [x] Activate field failed
+ [x] Activate field success
+
+Filter And (tests\app\filters\FilterAnd)
+ [x] Validate result empty success
+ [x] Validate build filter success
+ [x] Validate state success
+ [x] Validate double used exeption
+ [x] Validate message error failed
+ [x] Validate message success success
+ [x] Validate algorithm and failed
+ [x] Validate algorithm and success
+
+Filter Not (tests\app\filters\FilterNot)
+ [x] Validate result empty success
+ [x] Validate build filter success
+ [x] Validate state success
+ [x] Validate double used exeption
+ [x] Validate message error failed
+ [x] Validate message success success
+ [x] Validate algorithm not success
+ [x] Validate algorithm not failed
+
+Filter Or (tests\app\filters\FilterOr)
+ [x] Validate result empty success
+ [x] Validate build filter success
+ [x] Validate state success
+ [x] Validate double used exeption
+ [x] Validate message error failed
+ [x] Validate message success success
+ [x] Validate algorithm or failed
+ [x] Validate algorithm or success
+
+Form Login (tests\app\filters\FormLogin)
+ [x] Init empty success
+ [x] Init success
+ [x] Email incorrect failed
+ [x] Password incorrect failed
+ [x] Argument failed
+ [x] Two validate failed
+
+language (tests\app\filters\language)
+ [x] Init get library failed
+ [x] Init set language failed
+ [x] Default success
+ [x] Default lang success
+ [x] Init cookie success
+ [x] Set language success
+
+Form Login
+ [x] Equality
+
+Form Registration
+ [x] Stub create mock
+ [x] Stub get mock builder
+ [x] Return value map stub
+ [x] Return callback stub
+
+Mocke
+ [x] Gets average temperature from three service readings
+ [x] Short
+ [x] With
+ [x] With two
+ [x] With three
+ [x] Runtime partial
+ [x] Arg constructor success
+ [x] Exeption
+ [x] Easy set
+ [x] Spy
+ [x] Model
+ [x] A
+

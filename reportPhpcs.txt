@@ -1,0 +1,166 @@
+
+FILE: ..._nativ/task_form/good_form_validate_singl_place/app/UserData.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 49 | WARNING | Line exceeds 120 characters; contains 165
+    |         | characters (Generic.Files.LineLength.TooLong)
+ 68 | WARNING | Line exceeds 120 characters; contains 121
+    |         | characters (Generic.Files.LineLength.TooLong)
+----------------------------------------------------------------------
+
+
+FILE: ...nativ/task_form/good_form_validate_singl_place/app/Validator.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 29 | WARNING | Line exceeds 120 characters; contains 121
+    |         | characters (Generic.Files.LineLength.TooLong)
+----------------------------------------------------------------------
+
+
+FILE: ...php_nativ/task_form/good_form_validate_singl_place/app/Route.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 116 | WARNING | Line exceeds 120 characters; contains 145
+     |         | characters (Generic.Files.LineLength.TooLong)
+----------------------------------------------------------------------
+
+
+FILE: ...rm/good_form_validate_singl_place/app/forms/FormRegistration.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 83 | WARNING | Line exceeds 120 characters; contains 185
+    |         | characters (Generic.Files.LineLength.TooLong)
+----------------------------------------------------------------------
+
+
+FILE: ...sk_form/good_form_validate_singl_place/app/view/registration.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 8 | ERROR | Class name "registration" is not in PascalCase
+   |       | format (Squiz.Classes.ValidClassName.NotCamelCaps)
+----------------------------------------------------------------------
+
+
+FILE: ...ativ/task_form/good_form_validate_singl_place/app/view/users.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 7 | ERROR | Class name "users" is not in PascalCase format
+   |       | (Squiz.Classes.ValidClassName.NotCamelCaps)
+----------------------------------------------------------------------
+
+
+FILE: ...nativ/task_form/good_form_validate_singl_place/app/view/user.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 8 | ERROR | Class name "user" is not in PascalCase format
+   |       | (Squiz.Classes.ValidClassName.NotCamelCaps)
+----------------------------------------------------------------------
+
+
+FILE: ...ativ/task_form/good_form_validate_singl_place/app/view/index.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 7 | ERROR | Class name "index" is not in PascalCase format
+   |       | (Squiz.Classes.ValidClassName.NotCamelCaps)
+----------------------------------------------------------------------
+
+
+FILE: ...rm/good_form_validate_singl_place/app/view/page/registration.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 7 WARNINGS AFFECTING 7 LINES
+----------------------------------------------------------------------
+ 22 | WARNING | Line exceeds 120 characters; contains 125
+    |         | characters (Generic.Files.LineLength.TooLong)
+ 25 | WARNING | Line exceeds 120 characters; contains 132
+    |         | characters (Generic.Files.LineLength.TooLong)
+ 34 | WARNING | Line exceeds 120 characters; contains 131
+    |         | characters (Generic.Files.LineLength.TooLong)
+ 43 | WARNING | Line exceeds 120 characters; contains 131
+    |         | characters (Generic.Files.LineLength.TooLong)
+ 54 | WARNING | Line exceeds 120 characters; contains 134
+    |         | characters (Generic.Files.LineLength.TooLong)
+ 64 | WARNING | Line exceeds 120 characters; contains 141
+    |         | characters (Generic.Files.LineLength.TooLong)
+ 75 | WARNING | Line exceeds 120 characters; contains 131
+    |         | characters (Generic.Files.LineLength.TooLong)
+----------------------------------------------------------------------
+
+
+FILE: .../task_form/good_form_validate_singl_place/app/view/page/user.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 9 WARNINGS AFFECTING 9 LINES
+----------------------------------------------------------------------
+  40 | WARNING | Line exceeds 120 characters; contains 121
+     |         | characters (Generic.Files.LineLength.TooLong)
+  43 | WARNING | Line exceeds 120 characters; contains 132
+     |         | characters (Generic.Files.LineLength.TooLong)
+  53 | WARNING | Line exceeds 120 characters; contains 131
+     |         | characters (Generic.Files.LineLength.TooLong)
+  62 | WARNING | Line exceeds 120 characters; contains 131
+     |         | characters (Generic.Files.LineLength.TooLong)
+  72 | WARNING | Line exceeds 120 characters; contains 134
+     |         | characters (Generic.Files.LineLength.TooLong)
+  82 | WARNING | Line exceeds 120 characters; contains 141
+     |         | characters (Generic.Files.LineLength.TooLong)
+ 103 | WARNING | Line exceeds 120 characters; contains 128
+     |         | characters (Generic.Files.LineLength.TooLong)
+ 104 | WARNING | Line exceeds 120 characters; contains 124
+     |         | characters (Generic.Files.LineLength.TooLong)
+ 106 | WARNING | Line exceeds 120 characters; contains 131
+     |         | characters (Generic.Files.LineLength.TooLong)
+----------------------------------------------------------------------
+
+
+FILE: ...ask_form/good_form_validate_singl_place/app/view/page/layout.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AND 3 WARNINGS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  38 | WARNING | [ ] Line exceeds 120 characters; contains 130
+     |         |     characters
+     |         |     (Generic.Files.LineLength.TooLong)
+  55 | ERROR   | [x] Line indented incorrectly; expected at least 24
+     |         |     spaces, found 4
+     |         |     (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  55 | WARNING | [ ] Line exceeds 120 characters; contains 142
+     |         |     characters
+     |         |     (Generic.Files.LineLength.TooLong)
+  56 | ERROR   | [x] Line indented incorrectly; expected 20 spaces,
+     |         |     found 0
+     |         |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+  56 | ERROR   | [x] Closing brace indented incorrectly; expected 20
+     |         |     spaces, found 0
+     |         |     (Squiz.WhiteSpace.ScopeClosingBrace.Indent)
+ 164 | WARNING | [ ] Line exceeds 120 characters; contains 139
+     |         |     characters
+     |         |     (Generic.Files.LineLength.TooLong)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...sk_form/good_form_validate_singl_place/app/language/language.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 8 | ERROR | Class name "language" is not in PascalCase format
+   |       | (Squiz.Classes.ValidClassName.NotCamelCaps)
+----------------------------------------------------------------------
+
+
+FILE: .../php_nativ/task_form/good_form_validate_singl_place/app/User.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 30 | WARNING | Line exceeds 120 characters; contains 132
+    |         | characters (Generic.Files.LineLength.TooLong)
+----------------------------------------------------------------------
+
+

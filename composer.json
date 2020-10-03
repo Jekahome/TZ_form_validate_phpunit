@@ -1,0 +1,37 @@
+{
+    "name": "jeka/task_form_logic_2",
+    "authors": [
+        {
+            "name": "Eugene Yaroshenko",
+            "email": "yaroshjeka@gmail.com"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "scripts": {
+        "phpcs":  "phpcs --standard=PSR2 app -p -s --colors --ignore=app/IBuildFilter --extensions=php,js --report-full=reportPhpcs.txt --tab-width=4",
+        "phpcbf": "phpcbf --standard=PSR2 app -p -s --colors --ignore=app/IBuildFilter --extensions=php,js --report-full=reportPhpmd.txt --tab-width=4",
+        "php-cs-fixer": "php-cs-fixer fix",
+        "phpmd": "phpmd app json cleancode,codesize,controversial,design,naming,unusedcode,myRuleset.xml --exclude app/IBuildFilter  --non-strict @SuppressWarnings --suffixes php,js --reportfile reportPhpmd.txt --ignore-violations-on-exit --max-priority $1",
+
+        "test": "./vendor/bin/phpunit --verbose --log-junit  tests/log/log.txt --testdox-text tests/log/testdox.text --globals-backup --static-backup --bootstrap tests/bootstrap.php  tests",
+        "testConfig": "СПИСОК ТЕСТОВ ./vendor/bin/phpunit --configuration phpunit.xml --testsuite myNameTest --globals-backup --static-backup",
+        "coverage": "ПОКРЫТИЕ ТЕСТАМИ ./vendor/bin/phpunit --bootstrap vendor/autoload.php --coverage-text=tests/coverage.text  tests",
+
+        "es6toes5file": "babel --no-babelrc assets/es6  --out-file assets/build/js/bundle_es6.js --presets stage-3,env --ignore node_modules,test",
+        "es6toes5": "babel --no-babelrc assets/es6  -d assets/build/js --presets stage-3,env --ignore node_modules,test"
+    },
+    "require-dev": {
+        "phpmd/phpmd": "^2.8",
+        "phpunit/phpunit": "9.3",
+        "dms/phpunit-arraysubset-asserts": "^0.2.0",
+        "mockery/mockery": "^1.4"
+    }
+}
